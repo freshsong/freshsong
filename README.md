@@ -33,26 +33,15 @@ Here are some ideas to get you started:
 
 public class Songe {
 
-	public static void main(String[] args) {
-		String name = "SongE_Choi";
-		int year = 1991;
-		int age = 34;
-	    String language = "java";
-	    String work = "full-stack";
-		String location = "Gimpo. SouthKorea";
-		String github = "@freshsong";
-		String web = "https://github.com/freshsong";
-	    
-			
-			System.out.println("이름 : " + name);
-			System.out.println("태어난 연도  : " + year );
-			System.out.println("나이 : " + age);
-			System.out.println("사용 언어 : " + language);
-			System.out.println("희망 직무 : " + work);
-			System.out.println("거주 지역 : " +  location);
-			System.out.println("깃아이디 : " + github);
-			System.out.println("깃 주소 : " + web);
-
+public static void main(String[] args) {
+	String name = "SongE_Choi";
+	int year = 1991;
+	int age = 34;
+	String language = "java";
+	String work = "full-stack";
+	String location = "Gimpo. SouthKorea";
+	String github = "@freshsong";
+	String web = "https://github.com/freshsong";    
 	}
 }
 ```
