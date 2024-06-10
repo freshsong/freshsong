@@ -29,21 +29,32 @@ Here are some ideas to get you started:
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">             
 <br>
 
-```python
-class ChoiSongE():
-    
-  def __init__(self):
-    self.name = "SongE Choi";
-    self.username = "SongE";
-    self.location = "Gimpo, SouthKorea";
-    self.github = "@freshsong";
-    self.web = "https://github.com/freshsong";
-  
-  def __str__(self):
-    return self.name
+```java
 
-if __name__ == '__main__':
-    me = SongE()
+public class Songe {
+
+	public static void main(String[] args) {
+		String name = "SongE_Choi";
+		int year = 1991;
+		int age = 34;
+	    String language = "java";
+	    String work = "full-stack";
+		String location = "Gimpo. SouthKorea";
+		String github = "@freshsong";
+		String web = "https://github.com/freshsong";
+	    
+			
+			System.out.println("이름 : " + name);
+			System.out.println("태어난 연도  : " + year );
+			System.out.println("나이 : " + age);
+			System.out.println("사용 언어 : " + language);
+			System.out.println("희망 직무 : " + work);
+			System.out.println("거주 지역 : " +  location);
+			System.out.println("깃아이디 : " + github);
+			System.out.println("깃 주소 : " + web);
+
+	}
+}
 ```
 
 
